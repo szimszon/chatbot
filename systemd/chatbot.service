@@ -1,0 +1,14 @@
+[Unit]
+Description=XMPP chatbot
+After=network.target
+
+[Service]
+User=chatbot
+Group=chatbot
+RestartSec=5
+ExecStart=/usr/bin/python2.7 /usr/local/bin/chatbot.py -j chatbot_jid -p chatbot_password -s /usr/local/lib/chatbot -b chatbot_boss_jid
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
+

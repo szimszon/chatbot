@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo apt-get --trivial-only -du upgrade
+exit 0
+
