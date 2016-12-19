@@ -2,7 +2,9 @@
 
 This is a simple script to listen on a jabber server for messages from a specific JabberID (*BOSS*) and if the message matches a defined *REGEXP* (do:command::) it will execute a specific command.
 Like:
+```
   do:ls::
+```
 will execute the **ls** program placed in *SCRIPTDIR* (/usr/local/lib/chatbot/ls)
 
 You can push arguments to this scripts with **;** *ARGSEP* like: do:command;arg1;arg2[,...]::
