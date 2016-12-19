@@ -9,7 +9,7 @@ will execute the **ls** program placed in *SCRIPTDIR* (/usr/local/lib/chatbot/ls
 
 You can push arguments to this scripts with **;** *ARGSEP* like: 
 ```
-do:command;arg1;arg2[,...]::
+do:command;arg1;arg2[;...]::
 ```
 ## help
 <pre>
